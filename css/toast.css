@@ -1,0 +1,9 @@
+.toast-success-container {
+  border: 1px solid #29B6F6 !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 5px #29B6F6 !important;
+  color: #ECEFF1 !important;
+  text-shadow: #03A9F4 0px 0px 5px, #29B6F6 0px 0px 10px, #29B6F6 0px 0px 15px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}/*# sourceMappingURL=toast.css.map */

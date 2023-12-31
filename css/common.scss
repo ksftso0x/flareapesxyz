@@ -1,0 +1,179 @@
+$highlight-bright: #29B6F6;
+$highlight-dark: #03A9F4;
+$highlight-bright-semi-transparent: #29B6F699;
+$highlight-dark-semi-transparent: #03A9F499;
+$background-dark: #1e282c;
+$background-bright: #222e32;
+$background-dark-semi-transparent: #1e282c99;
+$background-bright-semi-transparent: #222e3299;
+$font-color: #ECEFF1;
+
+
+.neon-border {
+    border: 1px solid $highlight-bright;
+    border-radius: 5px;
+    box-shadow: 0 0 5px $highlight-bright;
+}
+
+.full-screen-holder {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.btn{
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px;
+    pointer-events: pointer;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1em;
+    background-color: $background-bright;
+    transition: 0.25s;
+    font-weight: bold;
+}
+.btn:hover{
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    background-color: $background-dark;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 10px $highlight-dark;
+    transition: 0.1s;
+    scale: 1.1;
+    background-color: $highlight-dark;
+}
+.btn:active{
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    background-color: $background-dark;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 10px $highlight-dark;
+    background-color: $highlight-dark;
+    transition: 0.05s;
+    scale: 1.15;
+}
+.btn:disabled {
+    color: $font-color;
+    text-shadow: 0 0 0 $highlight-dark, 0 0 0 $highlight-bright;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 0 0;
+    background-color: $background-bright;
+    filter: saturate(0.1);
+    transition: 0.05s;
+    scale: 1;
+}
+.font-awesome-btn {
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1em;
+    background-color: none;
+    transition: 0.25s;
+    font-weight: bold;
+    .neon {
+        scale: 1.5;
+        filter: drop-shadow(0 0 0.2rem $highlight-dark) drop-shadow(0 0 0.2rem $highlight-bright);
+    }
+}
+
+.font-awesome-btn:hover {
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    background-color: none;
+    transition: 0.1s;
+    scale: 1.25;
+}
+
+.font-awesome-btn:active {
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    background-color: none;
+    box-shadow: 0 0 10px $highlight-dark;
+    transition: 0.05s;
+    scale: 1.40;
+}
+
+.font-awesome-btn:disabled {
+    color: $font-color;
+    text-shadow: 0 0 0 $highlight-dark, 0 0 0 $highlight-bright;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 0 0;
+    background-color: none;
+    filter: saturate(0.1);
+    transition: 0.05s;
+    scale: 1;
+}
+
+
+.title{
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.neon {
+    color: $font-color;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.centered {
+    text-align: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.transparent-bg {
+    background-color: $background-dark-semi-transparent;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.marginless-top {
+    margin-top: 0;
+}
+
+.marginless-bottom {
+    margin-bottom: 0;
+}
+
+.marginless {
+    margin: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+.margin {
+    margin: 1rem;
+}

@@ -1,0 +1,24 @@
+.loading {
+  width: 10em;
+}
+
+.wrong-network {
+  width: 10em;
+  filter: saturate(0.1);
+}
+
+.mint-input-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.mint-input-holder .btn {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}/*# sourceMappingURL=minting.css.map */

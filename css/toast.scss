@@ -1,0 +1,21 @@
+$highlight-bright: #29B6F6;
+$highlight-dark: #03A9F4;
+$highlight-bright-semi-transparent: #29B6F699;
+$highlight-dark-semi-transparent: #03A9F499;
+$background-dark: #1e282c;
+$background-bright: #222e32;
+$background-dark-semi-transparent: #1e282c99;
+$background-bright-semi-transparent: #222e3299;
+$font-color: #ECEFF1;
+
+.toast-success-container {
+    border: 1px solid $highlight-bright !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px $highlight-bright !important;
+    color: $font-color !important;
+    text-shadow: $highlight-dark 0px 0px 5px, $highlight-bright 0px 0px 10px, $highlight-bright 0px 0px 15px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+
+}
+

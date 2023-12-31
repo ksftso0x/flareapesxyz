@@ -1,0 +1,57 @@
+$highlight-bright: #29B6F6;
+$highlight-dark: #03A9F4;
+$background-dark: #1e282c;
+$background-bright: #222e32;
+$font-color: #ECEFF1;
+
+
+.carousel-holder
+{
+    width: 95%;
+    margin: 5%;
+    max-width: 40em;
+    aspect-ratio: 1 / 1;
+}
+
+.slider-wrapper {
+    border: 2px solid $highlight-bright !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px $highlight-bright !important;
+}
+
+.carousel-root {
+    padding: 5px;
+}
+
+.thumb {
+    color: $highlight-bright;
+    text-decoration: none;
+    margin: 1rem;
+    background-color: $background-bright;
+    transition: 0.25s;
+    border: 1px solid $highlight-bright !important;
+    border-radius: 5px !important;
+    font-weight: bold;
+    box-shadow: 0 0 10px $highlight-dark;
+    transition: 0.1s;
+}
+
+.thumb:hover {
+    color: $highlight-dark;
+    background-color: $background-dark;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 10px $highlight-dark;
+    transition: 0.1s;
+    scale: 1.1;
+}
+
+.selected {
+    color: $highlight-dark;
+    background-color: $background-dark;
+    border-color: $highlight-dark;
+    box-shadow: 0 0 15px $highlight-dark;
+    border: 1px solid $highlight-dark !important;
+    border-radius: 5px !important;
+    transition: 0.1s;
+    scale: 1.1;
+}

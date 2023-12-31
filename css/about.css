@@ -1,0 +1,49 @@
+.carousel-holder {
+  width: 95%;
+  margin: 5%;
+  max-width: 40em;
+  aspect-ratio: 1/1;
+}
+
+.slider-wrapper {
+  border: 2px solid #29B6F6 !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 5px #29B6F6 !important;
+}
+
+.carousel-root {
+  padding: 5px;
+}
+
+.thumb {
+  color: #29B6F6;
+  text-decoration: none;
+  margin: 1rem;
+  background-color: #222e32;
+  transition: 0.25s;
+  border: 1px solid #29B6F6 !important;
+  border-radius: 5px !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px #03A9F4;
+  transition: 0.1s;
+}
+
+.thumb:hover {
+  color: #03A9F4;
+  background-color: #1e282c;
+  border-color: #03A9F4;
+  box-shadow: 0 0 10px #03A9F4;
+  transition: 0.1s;
+  scale: 1.1;
+}
+
+.selected {
+  color: #03A9F4;
+  background-color: #1e282c;
+  border-color: #03A9F4;
+  box-shadow: 0 0 15px #03A9F4;
+  border: 1px solid #03A9F4 !important;
+  border-radius: 5px !important;
+  transition: 0.1s;
+  scale: 1.1;
+}/*# sourceMappingURL=about.css.map */
